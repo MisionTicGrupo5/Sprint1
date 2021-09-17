@@ -10,7 +10,7 @@
 <body>
     <h2>Formulario de inscripcion</h2>
 <section>
-    <form action="">
+    <div id="formulario">
         <fieldset>
             <br>
             <label for="campoNombre">Nombre
@@ -22,7 +22,7 @@
             </label>
             <br><br>
             <label for="campoCorreo">Correo 
-            <input id="campoCorreo" type="email" placeholder="Ingrese Correo">
+            <input id="campoCorreo" type="text" placeholder="Ingrese Correo">
             </label>
             <br><br>
             <label for="campoConfirmacionCorreo">Confirmacion Correo
@@ -30,7 +30,7 @@
             </label>
             <br><br>
             <label for="campoTelefonoMovil">Telefono Movil
-            <input id="campoTelefonoMovil" type="telefono" placeholder="Ingrese numero celular">  <!--No se si es con el type "telefono"-->
+            <input id="campoTelefonoMovil" type="number" placeholder="Ingrese numero celular" maxlength="10"> 
             </label>
         </fieldset>
     </form>
