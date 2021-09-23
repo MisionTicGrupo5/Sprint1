@@ -1,1 +1,45 @@
-        
+* {
+    padding: 0%; 
+    margin: 0 auto;
+    background-color: rgb(118, 209, 28);
+}
+
+h1 {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font:oblique bold 400% cursive;
+
+}
+
+#menu {
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;   
+    background-color: transparent   
+}
+
+button {
+    width: 16%;
+    height: 80px;
+    font:oblique bold 100% cursive;
+    font-size: 200%;
+    text-decoration: none;
+    background-color: coral;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 3px;           
+    font-weight: 800
+    
+    }
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+section {
+
+    margin-top: 20px; 
+    text-align: center;
+}        
